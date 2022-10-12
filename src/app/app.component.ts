@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+
+  hookName = 'LifeCycle'
+
+  show = false
+
+  toggle(){
+    this.show = !this.show;
+  }
 }
